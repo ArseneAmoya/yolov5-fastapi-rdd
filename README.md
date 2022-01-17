@@ -1,6 +1,8 @@
 # yolov5-fastapi-rdd
-The API for the YOLO real time detection app \n
+The API for the YOLO real time detection app
+
 Prereq : uvicorn, fastapi.
+
 1 - pip install -r requirements.txt
 
 2 - uvicorn main:app --reload --host 0.0.0.0 --port 8000
